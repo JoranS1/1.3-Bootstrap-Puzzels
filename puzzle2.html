@@ -18,7 +18,7 @@
 <body class="bg-dark">
 
 <div class="bg-secondary mx-auto w-75">
-    <div class="navbar navbar-expand-xxl">
+    <!-- <div class="navbar navbar-expand-xxl">
         <div>
             <h1 class="navbar-brand text-white font-weight-normal h1">Bootstrap Puzzle 2</h1>
         </div>
@@ -32,7 +32,24 @@
                 <li class="nav-item"><a class="nav-link text-decoration-none" href="bonus.html">Bonus</a></li>
             </ul>
         </div>
+    </div> -->
+    
+    <div class="row">
+        <div class="col-11 order-2">
+            <h1 class="text-right">Bootstrap Puzzle 2</h1>
+        </div>
+        <div class="dropdown show col-1 order-1 mt-1">
+            <a class="btn btn-secondary fas fa-bars fa-2x" id="menu" href="#" role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true"></a>
+            <ul class="dropdown-menu" aria-labelledby="menu">
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item" href="puzzle1.html">Puzzle 1</a></li>
+                <li><a  class="dropdown-item active" href="puzzle2.html">Puzzle 2</a></li>
+                <li><a class="dropdown-item" href="puzzle3.html">Puzzle 3</a></li>
+                <li><a class="dropdown-item" href="bonus.html">Bonus</a></li>
+            </ul>
+        </div>
     </div>
+    
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
